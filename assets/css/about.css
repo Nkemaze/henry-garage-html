@@ -1,0 +1,149 @@
+.about-main {
+  padding-top: 120px;
+}
+
+/* HERO */
+.about-hero {
+  position: relative;
+  padding: 6rem 1rem;
+  overflow: hidden;
+}
+
+.about-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.about-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, var(--muted), rgba(255,255,255,0.95), var(--muted));
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about-hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+}
+
+/* PILL */
+.pill {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: rgba(var(--primary-rgb), 0.1);
+  color: var(--primary);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* STORY */
+.about-story {
+  padding: 6rem 1rem;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: center;
+}
+
+.story-image {
+  position: relative;
+}
+
+.story-img-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.story-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  background: var(--primary);
+  color: white;
+  padding: 1.2rem;
+  border-radius: 16px;
+}
+
+/* VALUES */
+.about-values {
+  padding: 6rem 1rem;
+  background: var(--muted);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 1.5rem;
+}
+
+.value-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* TIMELINE */
+.about-timeline {
+  padding: 6rem 1rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.year {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.timeline-content {
+  border-left: 2px solid rgba(var(--primary-rgb), 0.2);
+  padding-left: 1.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-badge {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+}
