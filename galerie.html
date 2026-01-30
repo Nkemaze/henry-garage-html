@@ -1,338 +1,336 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerie Photos</title>
-    <link rel="stylesheet" href="assets/css/header_footer.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet" href="assets/css/galarie.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Photos</title>
+  <link rel="stylesheet" href="assets/css/header_footer.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/galarie.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 </head>
+
 <body>
 
-<header class="site-header">
-  <!-- Top bar -->
-  <div class="top-bar">
-    <div class="container top-bar-content">
-      <div class="top-left">
-        <a href="tel:+237675097329" class="top-link">
-          <i class="bi bi-telephone"></i>
-          <span>675 097 329 / 691 509 578</span>
+  <header class="site-header">
+    <!-- Top bar -->
+    <div class="top-bar">
+      <div class="container top-bar-content">
+        <div class="top-left">
+          <a href="tel:+237675097329" class="top-link">
+            <i class="bi bi-telephone"></i>
+            <span>675 097 329 / 691 509 578</span>
+          </a>
+        </div>
+
+        <a href="https://facebook.com/henrigarage44xofficiel" target="_blank" class="top-link">
+          <i class="bi bi-facebook"></i>
+          <span>@henrigarage44xofficiel</span>
         </a>
       </div>
-
-      <a href="https://facebook.com/henrigarage44xofficiel"
-         target="_blank"
-         class="top-link">
-        <i class="bi bi-facebook"></i>
-        <span>@henrigarage44xofficiel</span>
-      </a>
     </div>
-  </div>
 
-  <!-- Main nav -->
-  <nav class="nav-bar">
-    <div class="container nav-content">
-      <a href="index.html" class="logo">
-        <img src="assets/images/logo.png" alt="Logo" />
-      </a>
+    <!-- Main nav -->
+    <nav class="nav-bar">
+      <div class="container nav-content">
+        <a href="index.html" class="logo">
+          <img src="assets/images/logo.png" alt="Logo" />
+        </a>
 
-      <div class="nav-links">
-        <a class="nav-link" href="index.html">Accueil</a>
-        <a class="nav-link" href="/about-us.html">À propos</a>
-        <a class="nav-link" href="/services.html">Services</a>
-        <a class="nav-link active" href="/galerie.html">Galerie</a>
-        <a class="nav-link" href="/media_blog.html">Média / Blog</a>
-        <a class="nav-link" href="/contact.html">Contact</a>
+        <div class="nav-links">
+          <a class="nav-link" href="index.html">Accueil</a>
+          <a class="nav-link" href="/about-us.html">À propos</a>
+          <a class="nav-link" href="/services.html">Services</a>
+          <a class="nav-link active" href="/galerie.html">Galerie</a>
+          <a class="nav-link" href="/media_blog.html">Média / Blog</a>
+          <a class="nav-link" href="/contact.html">Contact</a>
 
-        <a href="tel:+237675097329" class="nav-link mobile-phone">
+          <a href="tel:+237675097329" class="nav-link mobile-phone">
             <i class="bi bi-telephone"></i>
             675 097 329 / 691 509 578
-        </a>
+          </a>
 
-        <!-- Mobile-only: RDV button -->
-        <a href="/contact.html" class="btn-primary1 mobile-btn">Prendre RDV</a>
+          <!-- Mobile-only: RDV button -->
+          <a href="/contact.html" class="btn-primary1 mobile-btn">Prendre RDV</a>
 
+        </div>
+
+        <a href="/contact.html" class="btn-primary1">Prendre RDV</a>
+
+        <button class="menu-btn">
+          <i class="bi bi-list"></i>
+        </button>
       </div>
+    </nav>
+  </header>
 
-      <a href="/contact.html" class="btn-primary1">Prendre RDV</a>
-
-      <button class="menu-btn">
-        <i class="bi bi-list"></i>
-      </button>
-    </div>
-  </nav>
-</header>
-
-<main class="flex-1">
+  <main class="flex-1">
     <!-- Gallery Header Section -->
     <section class="bg-muted">
-        <div class="container2">
-            <div class="text-center max-w-3xl mx-auto fade-in-up">
-                <span class="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4 pill">Galerie</span>
-                <h1 class="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">Notre Galerie Photos</h1>
-                <p class="text-xl text-muted-foreground">Découvrez notre atelier, notre équipe et nos réalisations en images.</p>
-            </div>
+      <div class="container2">
+        <div class="text-center max-w-3xl mx-auto fade-in-up">
+          <span
+            class="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4 pill">Galerie</span>
+          <h1 class="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">Notre Galerie Photos
+          </h1>
+          <p class="text-xl text-muted-foreground">Découvrez notre atelier, notre équipe et nos réalisations en images.
+          </p>
         </div>
+      </div>
     </section>
 
     <!-- Gallery Section -->
     <section>
-        <div class="container2">
-            <!-- Filter Buttons -->
-            <div class="flex flex-wrap justify-center gap-3 mb-12">
-                <button class="filter-btn active">Tous</button>
-                <button class="filter-btn">Atelier</button>
-                <button class="filter-btn">Réparations</button>
-                <button class="filter-btn">Carrosserie</button>
-                <button class="filter-btn">Équipe</button>
-            </div>
-
-            <!-- Gallery Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Image 1 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/1.jpeg" alt="Notre atelier moderne" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Atelier</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Notre atelier moderne</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 2 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/2.jpeg" alt="Diagnostic électronique" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Réparations</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Diagnostic électronique</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 3 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/3.jpeg" alt="Travaux de carrosserie" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Carrosserie</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Travaux de carrosserie</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 4 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/4.jpeg" alt="Notre équipe d'experts" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Équipe</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Notre équipe d'experts</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 5 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/5.jpeg" alt="Zone de travail" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Atelier</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Zone de travail</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 6 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/6.jpeg" alt="Réparation moteur" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Réparations</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Réparation moteur</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 7 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/7.jpeg" alt="Peinture automobile" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Carrosserie</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Peinture automobile</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 8 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/1.jpeg" alt="Formation continue" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Équipe</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Formation continue</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Image 9 -->
-                <div class="gallery-item fade-in-up">
-                    <img src="/assets/images/1.jpeg" alt="Équipements de pointe" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                    <div class="gallery-overlay">
-                        <div class="gallery-content">
-                            <span class="text-primary-foreground/80 text-sm">Atelier</span>
-                            <h3 class="text-primary-foreground font-semibold text-lg">Équipements de pointe</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container2">
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap justify-center gap-3 mb-12">
+          <button class="filter-btn active">Tous</button>
+          <button class="filter-btn">Atelier</button>
+          <button class="filter-btn">Réparations</button>
+          <button class="filter-btn">Carrosserie</button>
+          <button class="filter-btn">Équipe</button>
+          <button class="filter-btn">Victoire</button>
         </div>
+
+        <!-- Gallery Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Image 1 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/1.jpeg" alt="Notre atelier moderne"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Atelier</span>
+                <h3 class="text-primary-foreground font-semibold text-lg">Notre atelier moderne</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/2.jpeg" alt="Diagnostic électronique"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Victoire</span>
+                <h3 class="text-primary-foreground font-semibold text-lg">Présantation des trophés par Mr Henri</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/3.jpeg" alt="Travaux de carrosserie"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Victoire</span>
+                <h3 class="text-primary-foreground font-semibold text-lg">Contrat avec Mr Mahlox</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/4.jpeg" alt="Notre équipe d'experts"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Équipe</span>
+                <h3 class="text-primary-foreground font-semibold text-lg">Notre équipe d'experts</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/5.jpeg" alt="Zone de travail"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Équipe</span>
+                <h3 class="text-primary-foreground font-semibold text-lg">Malhox avec l'équipe Henri garage</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/6.jpeg" alt="Réparation moteur"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Victoire</span>
+                <h3 class="text-primary-foreground font-semibold text-lg"></h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 7 -->
+          <div class="gallery-item fade-in-up">
+            <img src="/assets/images/7.jpeg" alt="Peinture automobile"
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="gallery-overlay">
+              <div class="gallery-content">
+                <span class="text-primary-foreground/80 text-sm">Équipe</span>
+                <h3 class="text-primary-foreground font-semibold text-lg"></h3>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
     </section>
-</main>
+  </main>
 
-<footer class="site-footer">
-  <div class="container footer-content">
+  <footer class="site-footer">
+    <div class="container footer-content">
 
-    <!-- Brand -->
-    <div class="footer-col">
-      <img src="assets/images/logo.png" alt="Henri Garage" class="footer-logo">
-      <p class="footer-text">
-        Votre partenaire de confiance pour l'entretien et la réparation automobile
-        à Yaoundé depuis des années.
-      </p>
+      <!-- Brand -->
+      <div class="footer-col">
+        <img src="assets/images/logo.png" alt="Henri Garage" class="footer-logo">
+        <p class="footer-text">
+          Votre partenaire de confiance pour l'entretien et la réparation automobile
+          à Yaoundé depuis des années.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4 class="footer-title">Liens Rapides</h4>
+        <ul class="footer-links">
+          <li><a href="/about-us.html">À propos</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/galerie.html">Galerie</a></li>
+          <li><a href="/media_blog.html">Média / Blog</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="footer-col">
+        <h4 class="footer-title">Nos Services</h4>
+        <ul class="footer-list">
+          <li>Entretien général</li>
+          <li>Réparation mécanique</li>
+          <li>Carrosserie &amp; Peinture</li>
+          <li>Climatisation</li>
+          <li>Dépannage 24/7</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4 class="footer-title">Contact</h4>
+        <ul class="footer-contact">
+
+          <li>
+            <!-- Map pin -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+              </path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Yaoundé, Cameroun</span>
+          </li>
+
+          <li>
+            <!-- Phone -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            <span>
+              675 097 329<br>
+              691 509 578
+            </span>
+          </li>
+
+          <li>
+            <!-- Facebook -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+            <a href="https://facebook.com/henrigarage44xofficiel" target="_blank">
+              @henrigarage44xofficiel
+            </a>
+          </li>
+
+          <li>
+            <!-- Clock -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Lun - Sam: 8h - 18h</span>
+          </li>
+
+        </ul>
+      </div>
+
     </div>
 
-    <!-- Quick Links -->
-    <div class="footer-col">
-      <h4 class="footer-title">Liens Rapides</h4>
-      <ul class="footer-links">
-        <li><a href="/about-us.html">À propos</a></li>
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/galerie.html">Galerie</a></li>
-        <li><a href="/media_blog.html">Média / Blog</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
+    <div class="footer-bottom">
+      <p>© 2026 Henri Garage. Tous droits réservés.</p>
+      <p>Yaoundé, Cameroun 🇨🇲</p>
     </div>
+  </footer>
 
-    <!-- Services -->
-    <div class="footer-col">
-      <h4 class="footer-title">Nos Services</h4>
-      <ul class="footer-list">
-        <li>Entretien général</li>
-        <li>Réparation mécanique</li>
-        <li>Carrosserie &amp; Peinture</li>
-        <li>Climatisation</li>
-        <li>Dépannage 24/7</li>
-      </ul>
-    </div>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
 
-    <!-- Contact -->
-    <div class="footer-col">
-      <h4 class="footer-title">Contact</h4>
-      <ul class="footer-contact">
+    menuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
 
-        <li>
-          <!-- Map pin -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-          <span>Yaoundé, Cameroun</span>
-        </li>
-
-        <li>
-          <!-- Phone -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-          </svg>
-          <span>
-            675 097 329<br>
-            691 509 578
-          </span>
-        </li>
-
-        <li>
-          <!-- Facebook -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-          </svg>
-          <a href="https://facebook.com/henrigarage44xofficiel" target="_blank">
-            @henrigarage44xofficiel
-          </a>
-        </li>
-
-        <li>
-          <!-- Clock -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polyline points="12 6 12 12 16 14"></polyline>
-          </svg>
-          <span>Lun - Sam: 8h - 18h</span>
-        </li>
-
-      </ul>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 Henri Garage. Tous droits réservés.</p>
-    <p>Yaoundé, Cameroun 🇨🇲</p>
-  </div>
-</footer>
-
-<script>
-  const menuBtn = document.querySelector('.menu-btn');
-  const navLinks = document.querySelector('.nav-links');
-
-  menuBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-
-    // Toggle icon between hamburger and X
-    const icon = menuBtn.querySelector('i');
-    if (navLinks.classList.contains('show')) {
-      icon.classList.remove('bi-list');
-      icon.classList.add('bi-x');
-    } else {
-      icon.classList.remove('bi-x');
-      icon.classList.add('bi-list');
-    }
-  });
-</script>
-
-<script>
-    // Add interactivity to filter buttons
-    document.addEventListener('DOMContentLoaded', function() {
-        const filterButtons = document.querySelectorAll('.filter-btn');
-        const galleryItems = document.querySelectorAll('.gallery-item');
-        
-        filterButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                // Remove active class from all buttons
-                filterButtons.forEach(btn => btn.classList.remove('active'));
-                
-                // Add active class to clicked button
-                this.classList.add('active');
-                
-                const filterValue = this.textContent.trim();
-                
-                // Filter gallery items
-                galleryItems.forEach(item => {
-                    const category = item.querySelector('.gallery-content span').textContent.trim();
-                    
-                    if (filterValue === 'Tous' || category === filterValue) {
-                        item.style.display = 'block';
-                    } else {
-                        item.style.display = 'none';
-                    }
-                });
-            });
-        });
+      // Toggle icon between hamburger and X
+      const icon = menuBtn.querySelector('i');
+      if (navLinks.classList.contains('show')) {
+        icon.classList.remove('bi-list');
+        icon.classList.add('bi-x');
+      } else {
+        icon.classList.remove('bi-x');
+        icon.classList.add('bi-list');
+      }
     });
-</script>
+  </script>
+
+  <script>
+    // Add interactivity to filter buttons
+    document.addEventListener('DOMContentLoaded', function () {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+
+          // Add active class to clicked button
+          this.classList.add('active');
+
+          const filterValue = this.textContent.trim();
+
+          // Filter gallery items
+          galleryItems.forEach(item => {
+            const category = item.querySelector('.gallery-content span').textContent.trim();
+
+            if (filterValue === 'Tous' || category === filterValue) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
 </body>
+
 </html>
